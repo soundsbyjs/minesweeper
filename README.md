@@ -2,6 +2,8 @@
 
 There's no fancy graphics for when you win or lose. No cute smiley faces.
 
+It needs commandline args for the size and number of bombs but I'm lazy.
+
 If you click a bomb the game exists. If you cover all the bombs with flags the game exits.
 
 Be sure to check out the floodremove() function! it's really cool.
