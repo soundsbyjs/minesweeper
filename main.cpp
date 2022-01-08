@@ -210,6 +210,9 @@ public:
 		
 		return true;
 	}
+	// a cool implementation of a recursive flood fill algorithm
+	// pretty sure that big chain of if else could be done with some
+	// manipulation of the ascii table but whatever lol
 	void floodRemove(int x, int y)
 	{
 		if(vectBoard[y * columns + x] == 0)
