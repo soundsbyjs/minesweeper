@@ -7,7 +7,7 @@ class Minesweeper : public olc::PixelGameEngine
 public:
 	Minesweeper(int rows, int columns)
 	{
-		sAppName = "Example";
+		sAppName = "uglysweeper";
 		this->rows = rows;
 		this->columns = columns;
 	}
