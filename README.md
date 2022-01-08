@@ -1,5 +1,9 @@
 <h1>uglysweeper</h1> <br>
 
+There's no fancy graphics for when you win or lose. No cute smiley faces.
+
+If you click a bomb the game exists. If you cover all the bombs with flags the game exits.
+
 <h1> compile </h2> <br>
 
 linux: ./compile.sh
