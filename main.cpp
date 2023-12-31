@@ -131,13 +131,13 @@ public:
 					vectBoard[y * columns + x] = '8';		
 					break;
 				case 'b': // game over!!
+					std::printf("You lose!");
 					return false;
 				default:
 					/* do nothing */
 					break;
 			}
 		}
-// comment
 		if(GetMouse(1).bPressed)
 		{
 			int x = GetMouseX() / 32;
@@ -205,7 +205,11 @@ public:
 				}
 			}
 		}
-		if(iCoveredBombs == iBombs) return false;
+		if(iCoveredBombs == iBombs) 
+		{
+			std::printf("You win!");
+			return false;
+		}
 		
 		return true;
 	}
