@@ -104,7 +104,6 @@ public:
 			switch(vectBoard[y * columns + x])
 			{
 				case 0:
-					// FUCK MY LIFE THIS IS A COMPLEX ALGORITHM
 					floodRemove(x, y);
 					break;
 				case 1:
@@ -138,7 +137,7 @@ public:
 					break;
 			}
 		}
-
+// comment
 		if(GetMouse(1).bPressed)
 		{
 			int x = GetMouseX() / 32;
