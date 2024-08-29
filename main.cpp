@@ -130,7 +130,7 @@ public:
 					vectBoard[y * columns + x] = '8';		
 					break;
 				case 'b': // game over!!
-					std::printf("You lose!\n");
+					std::cout << "You lose!" << std::endl;
 					return false;
 				default:
 					/* do nothing */
@@ -206,7 +206,7 @@ public:
 		}
 		if(iCoveredBombs == iBombs) 
 		{
-			std::printf("You win!\n");
+			std::cout << "You win!" << std::endl;
 			return false;
 		}
 		
