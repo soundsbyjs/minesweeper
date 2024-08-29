@@ -52,12 +52,11 @@ public:
 		srand (time(NULL));
 		int bombCount = 0;
 			
-		while(true)
+		while(bombCount != iBombs)
 		{
 			int randx = rand() % columns;
 			int randy = rand() % rows;
 			
-			if(bombCount == iBombs) break;
 			if(vectBoard[randx * randy] != 'b')
 			{
 				vectBoard[randx * randy] = 'b';
